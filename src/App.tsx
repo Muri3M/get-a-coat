@@ -22,6 +22,7 @@ function App() {
           bgcolor: '#415A77',
           p: 4,
           width: '60%',
+          minHeight: '550px',
           height: '40%',
           display: 'flex',
           alignItems: 'center',
