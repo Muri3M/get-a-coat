@@ -16,10 +16,12 @@ interface getTemperatureData {
 }
 
 function Temperature() {
-  const name: string = useSelector(
+  const input: string = useSelector(
     (state: CityState) => state.city,
     shallowEqual
   );
+
+  const name = input.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
   const { loading, error, data } = useQuery<getTemperatureData>(TEMPERATURE, {
     variables: { name },
