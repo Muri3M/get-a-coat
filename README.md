@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Get a coat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este Projete consiste na criação de um website utilizando o React JS que permite buscar a temperatura atual de uma cidade.
+
+A aplicação pode ser testada neste [Link](https://get-a-coat.vercel.app).
+
 
 ## Available Scripts
 
